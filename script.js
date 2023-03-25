@@ -1,16 +1,4 @@
-
-function EnterEventHandler(){
-    var input = document.getElementById("InputCity");
-    input.addEventListener("keypress", function(event) {
-      if (event.key === "Enter") {
-        event.preventDefault();
-        document.getElementById("checkWeatherForCity").click();
-      }
-    });
-  }
-  
-  
-  const download = document.querySelector(".download");
+const download = document.querySelector(".download");
 const dark = document.querySelector(".dark");
 const light = document.querySelector(".light");
 const qrContainer = document.querySelector("#qr-code");
