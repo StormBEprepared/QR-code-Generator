@@ -12,11 +12,11 @@ qrText.addEventListener("input", handleQRText);
 sizes.addEventListener("change", handleSize);
 shareBtn.addEventListener("click", handleShare);
 
-const defaultUrl = "https://youtube.com/@AsmrProg";
+const defaultUrl = "http://leonidstefanelpintea.freecluster.eu/";
 let colorLight = "#fff",
     colorDark = "#000",
     text = defaultUrl,
-    size = 300;
+    size = 200;
 
 function handleDarkColor(e) {
     colorDark = e.target.value;
