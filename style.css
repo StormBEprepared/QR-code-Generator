@@ -1,0 +1,73 @@
+#topSide{
+    text-align: center;
+    float:center;
+    min-width: 320px;
+    margin-top: 0.1rem;
+    display: flexbox;
+  }
+#mainSide{
+    text-align: center;
+
+  }
+#bottomSide{
+    text-align: center;
+  }
+  
+  h1{
+    font-size: 3rem;
+    color:white;
+    text-shadow: 2.4px 1.3px rgba(96, 93, 93, 0.516);
+    text-shadow: 1.5px 4px rgba(96, 93, 93, 0.516);
+  }
+  p{
+    color:white;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    font-size: 1.5rem;
+    color:white;
+    font-weight: bold;
+  }
+  
+  a{
+    font-size: 1.5rem;
+    color:white;
+  }
+  
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: rgb(80,85,111);
+    background-image: radial-gradient(circle, #13015b, #130c66, #121770, #10217b, #0c2a86, #00368c, #004292, #004d96, #005a91, #006284, #006875, #376c69);
+    background-attachment: fixed;
+    margin:0;
+    overflow:scroll;
+    align-items: center;
+    text-align: center;
+  } 
+  
+label{
+    font-size: 1.5rem;
+    color:white;
+}
+ button{
+  display:block;
+  font-size: 1.5rem;
+  color:white;
+  font-weight: bold;
+}
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 5px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  
+  div {
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+  }
+  
