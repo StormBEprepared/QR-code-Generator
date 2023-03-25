@@ -5,37 +5,28 @@
 body{
   background: #1c1e26;
   font-family: sans-serif;
-  max-width: 500px;
-  height: 100vh;
-  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
+  text-align: center;
 }
 
-input[type="color"]{
-  border: none;
-  width: 32.5%;
-  height: 40px;
-  border-radius: 3px;
-}
-
-input[type="color"]::-webkit-color-swatch-wrapper{
-  padding: 0;
-}
-
-input[type="color"]::-webkit-color-swatch{
-  border: none;
-}
-
-a{
-  text-decoration: none;
+h1{
+    font-family: verdana;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 3px;
+    word-spacing: 9px;
+    color: rgb(0, 255, 255);
+    background-color:transparent;
+    text-shadow: rgb(0, 0, 0) 6px 5px 10px;
 }
 
 .qr-text{
-  padding: 1rem;
-  display: block;
+  padding: 0.5rem;
   background: #181b29;
   border: 1px solid #414866;
   border-radius: 4px;
@@ -43,6 +34,8 @@ a{
   margin: 0.5rem 0 1rem 0;
   color: #fff;
   outline: none;
+  text-align: center;
+  display: flex;
 }
 
 .qr-text::placeholder{
@@ -51,8 +44,8 @@ a{
 }
 
 #qr-code{
-  height: 500px;
-  width: 500px;
+  height: 250px;
+  width: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,52 +55,6 @@ a{
 #qr-code img, #qr-code canvas{
   max-width: 100% !important;
   max-height: 100% !important;
-}
-
-.row{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.sizes{
-  width: 32.5%;
-  height: 40px;
-  color: #fff;
-  background: #181b29;
-  border: 1px solid #414866;
-  border-radius: 4px;
-  outline: none;
-}
-
-.btn{
-  color: #fff;
-  max-width: 200px;
-  padding: 14px;
-  background: rgb(106, 43, 255);
-  border-radius: 4px;
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  font-size: 1.1rem;
-  font-weight: 500;
-  flex: 1;
-}
-
-.btn img{
-  width: 20px;
-  margin-left: 10px;
-}
-
-.share-btn{
-  margin-left: 0.7rem;
-}
-
-.action-container{
-  display: flex;
-  margin: 1rem 0;
 }
 
 @media (max-width: 512px){
